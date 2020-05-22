@@ -1,6 +1,9 @@
 name: 'EKS on Fargate'
 description: 'Creates and EKS on Fargate cluster'
 author: 'Michael Hausenblas, hausenb@amazon.com'
+branding:
+  icon: 'cloud'
+  color: 'orange'
 runs:
   using: 'docker'
   image: 'Dockerfile'
