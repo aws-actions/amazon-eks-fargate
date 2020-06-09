@@ -1,6 +1,8 @@
-## Amazon EKS on AWS Fargate GitHub Actions
+## WIP: Amazon EKS on AWS Fargate GitHub Actions
 
 This action allows to manage the lifecycle of an [Amazon EKS](https://aws.amazon.com/eks/) cluster running on [AWS Fargate](https://aws.amazon.com/fargate/).
+
+NOTE: this is work in progress, not yet usable.
 
 ## Usage
 
