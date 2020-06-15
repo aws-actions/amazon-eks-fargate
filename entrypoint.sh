@@ -42,6 +42,8 @@ EOF
 eksctl create cluster -f ${tmpdir}/fg-cluster-spec.yaml
 
 # check if cluster if available
+echo "Waiting for cluster $CLUSTER_NAME in $TARGET_REGION to become available"
+sleep 10
 cluster_status="UNKNOWN"
 until [ "$cluster_status" == "ACTIVE" ]
 do 
