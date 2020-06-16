@@ -26,6 +26,9 @@ jobs:
       uses: aws-actions/amazon-eks-fargate@v0.1
 ```
 
+Once completed (after ca. 15min) connect to the EKS cluster by [updating your `kubeconfig`](https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html).
+
+
 ## License
 
 This project is licensed under the Apache-2.0 License.
