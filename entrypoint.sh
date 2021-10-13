@@ -27,7 +27,7 @@ kind: ClusterConfig
 metadata:
   name: $CLUSTER_NAME
   region: $TARGET_REGION
-  version: '1.16'
+  version: '1.21'
 iam:
   withOIDC: true
 fargateProfiles:
